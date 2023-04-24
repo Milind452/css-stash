@@ -5,8 +5,10 @@ import Overview from "./pages/Overview/Overview";
 function App() {
     return (
         <>
-            <Header />
-            <Overview />
+            <div class="app">
+                <Header />
+                <Overview />
+            </div>
         </>
     );
 }

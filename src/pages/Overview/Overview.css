@@ -1,0 +1,4 @@
+article {
+    overflow: auto;
+    grid-area: body;
+}

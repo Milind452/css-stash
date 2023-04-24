@@ -42,6 +42,83 @@ export default function Overview() {
                     <FaLinkedin />
                 </a>
             </section>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
+            <p>
+                Demonstration and configuration of the Radzen Blazor DatePicker
+                component. Get and Set the value of DatePicker As all Radzen
+                Blazor input components the DatePicker has a Value property
+                which gets and sets the value of the component. Use @bind-Value
+                to get the user input.
+            </p>
         </article>
     );
 }
