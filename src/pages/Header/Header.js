@@ -15,7 +15,7 @@ export default function Header({ isNavOpen, setIsNavOpen }) {
                 <p>#css stash</p>
             </div>
             <div className="right">
-                <input />
+                <input placeholder="press &quot; ctrl + / &quot; to search" type="text" name="search" />
                 <a
                     rel="noreferrer"
                     href="https://github.com/milind452/css-stash"

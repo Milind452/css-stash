@@ -26,4 +26,39 @@
     text-decoration: none;
     color: #fff;
     font-size: 1.7rem;
+    position: relative;
+    z-index: 1;
+}
+
+.right > input {
+    background: #fff;
+    border: 0;
+    border-radius: 100vw;
+    box-sizing: border-box;
+    color: #794493;
+    font-size: 16px;
+    height: 2.3rem;
+    outline: none;
+    padding: 0 20px;
+    position: relative;
+    width: 25rem;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 900px) {
+    .right > input {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .right > input {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .right > input {
+        width: 10rem;
+    }
 }
