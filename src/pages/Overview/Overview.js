@@ -5,7 +5,7 @@ import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 export default function Overview() {
     return (
-        <article>
+        <article className="overview">
             <h1>Overview</h1>
             <section>
                 <p>
@@ -30,10 +30,7 @@ export default function Overview() {
                     />
                 </p>
             </section>
-            <section>
-                <a href="mailto:mohapatra.milind@gmail.com">
-                    <FaEnvelope />
-                </a>
+            <section className="socials">
                 <a
                     rel="noreferrer"
                     href="https://www.linkedin.com/in/milind452"
@@ -41,8 +38,11 @@ export default function Overview() {
                 >
                     <FaLinkedin />
                 </a>
+                <a href="mailto:mohapatra.milind@gmail.com">
+                    <FaEnvelope />
+                </a>
             </section>
-            <p>
+            {/* <p>
                 Demonstration and configuration of the Radzen Blazor DatePicker
                 component. Get and Set the value of DatePicker As all Radzen
                 Blazor input components the DatePicker has a Value property
@@ -118,7 +118,7 @@ export default function Overview() {
                 Blazor input components the DatePicker has a Value property
                 which gets and sets the value of the component. Use @bind-Value
                 to get the user input.
-            </p>
+            </p> */}
         </article>
     );
 }

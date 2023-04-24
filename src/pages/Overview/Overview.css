@@ -1,4 +1,36 @@
-article {
+.overview {
     overflow: auto;
     grid-area: body;
+    padding: 20px 40px;
+}
+
+.overview > h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #794493;
+}
+
+.overview > section {
+    padding: 20px 3rem 20px 0;
+}
+
+.overview p {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    position: relative;
+}
+
+.socials > a {
+    color: #794493;
 }
