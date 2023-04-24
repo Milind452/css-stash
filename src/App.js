@@ -1,7 +1,8 @@
 import "./App.css";
+import Overview from "./pages/Overview/Overview";
 
 function App() {
-    return "Hello";
+    return <Overview />;
 }
 
 export default App;
