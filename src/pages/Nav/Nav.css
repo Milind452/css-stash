@@ -3,6 +3,7 @@ nav {
     position: relative;
     width: 250px;
     overflow: auto;
+    border-right: 1px solid #eeeeee;
 }
 
 nav ul {
@@ -33,4 +34,19 @@ nav ul li a {
     height: 100%;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+nav::-webkit-scrollbar {
+    width: 0.375rem;
+}
+
+nav::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 100vw;
+    margin-block: 0.5rem;
+}
+
+nav::-webkit-scrollbar-thumb {
+    background: #a374ff;
+    border-radius: 100vw;
 }
