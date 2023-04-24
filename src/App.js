@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./pages/Header/Header";
+import Nav from "./pages/Nav/Nav";
 import Overview from "./pages/Overview/Overview";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
             <div class="app">
                 <Header />
                 <Overview />
+                <Nav />
             </div>
         </>
     );
