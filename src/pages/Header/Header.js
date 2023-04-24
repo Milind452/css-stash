@@ -2,15 +2,18 @@ import { FaGithub } from "react-icons/fa";
 import Hamburger from "../../components/Hamburger/Hamburger";
 import "./Header.css";
 import useWindowSize from "../../hooks/useWindowSize";
+import { useEffect } from "react";
 
 export default function Header({ isNavOpen, setIsNavOpen }) {
     const { width } = useWindowSize();
 
-    if (width <= 700) {
-        setIsNavOpen(false);
-    } else {
-        setIsNavOpen(true);
-    }
+    useEffect(() => {
+        if (width <= 700) {
+            setIsNavOpen(false);
+        } else {
+            setIsNavOpen(true);
+        }
+    }, [width, setIsNavOpen]);
 
     return (
         <section className="header">
