@@ -1,0 +1,14 @@
+.logo-container {
+    position: relative;
+}
+
+.logo-text-3d {
+    position: relative;
+    transform: translateY(-5px);
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #ff1b97;
+    text-shadow: -1px 1px 1px #fff, -1px 2px 1px #ffe6f4, -1px 3px 1px #ffe6f4,
+        -1px 4px 1px #ffe6f4;
+}

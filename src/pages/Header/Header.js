@@ -3,6 +3,7 @@ import Hamburger from "../../components/Hamburger/Hamburger";
 import "./Header.css";
 import useWindowSize from "../../hooks/useWindowSize";
 import { useEffect } from "react";
+import Logo from "../../components/Logo/Logo";
 
 export default function Header({ isNavOpen, setIsNavOpen }) {
     const { width } = useWindowSize();
@@ -24,7 +25,7 @@ export default function Header({ isNavOpen, setIsNavOpen }) {
                         setIsNavOpen={setIsNavOpen}
                     />
                 </div>
-                <p>#css stash</p>
+                <Logo />
             </div>
             <div className="right">
                 <input
