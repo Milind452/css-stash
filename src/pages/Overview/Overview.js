@@ -1,3 +1,4 @@
+import Link from "../../components/Link/Link";
 import "./Overview.css";
 
 import { FaEnvelope, FaLinkedin } from "react-icons/fa";
@@ -17,8 +18,16 @@ export default function Overview() {
                     from other creators.
                 </p>
                 <p>
-                    For any queries or feedback, you can reach out to me on
-                    LinkedIn or via Email
+                    For any queries or feedback, you can reach out to me on{" "}
+                    <Link
+                        href={"https://www.linkedin.com/in/milind452"}
+                        content={"LinkedIn"}
+                    />{" "}
+                    or via{" "}
+                    <Link
+                        href={"mailto:mohapatra.milind@gmail.com"}
+                        content={"Email"}
+                    />
                 </p>
             </section>
             <section>
