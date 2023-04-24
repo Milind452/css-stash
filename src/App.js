@@ -9,7 +9,7 @@ function App() {
 
     return (
         <>
-            <div class="app">
+            <div className="app">
                 <Header isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} />
                 <Overview />
                 {isNavOpen && <Nav />}
