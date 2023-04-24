@@ -21,3 +21,9 @@
     flex-wrap: nowrap;
     gap: 3rem;
 }
+
+.right > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.7rem;
+}

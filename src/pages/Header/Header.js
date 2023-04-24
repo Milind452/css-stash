@@ -16,7 +16,13 @@ export default function Header({ isNavOpen, setIsNavOpen }) {
             </div>
             <div className="right">
                 <input />
-                <FaGithub />
+                <a
+                    rel="noreferrer"
+                    href="https://github.com/milind452/css-stash"
+                    target="_blank"
+                >
+                    <FaGithub />
+                </a>
             </div>
         </section>
     );
