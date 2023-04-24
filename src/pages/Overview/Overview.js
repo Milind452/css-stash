@@ -10,8 +10,8 @@ export default function Overview() {
             <section>
                 <p>
                     This is a collection of pre-designed components written
-                    using HTML, CSS and JS. I encourage you to use these in your
-                    own apps.
+                    using HTML, CSS and JS. Feel free to use these in your own
+                    apps.
                 </p>
                 <p>
                     Some of these are my own creations while some are inspired
