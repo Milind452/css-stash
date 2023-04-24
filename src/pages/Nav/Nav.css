@@ -4,6 +4,7 @@ nav {
     width: 250px;
     overflow: auto;
     border-right: 1px solid #eeeeee;
+    transition: all 0.3s ease;
 }
 
 nav ul {

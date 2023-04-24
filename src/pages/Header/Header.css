@@ -43,6 +43,7 @@
     position: relative;
     width: 25rem;
     text-overflow: ellipsis;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 900px) {

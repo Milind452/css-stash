@@ -9,6 +9,7 @@
     font-weight: 700;
     margin-bottom: 20px;
     color: #794493;
+    transition: all 0.3s ease;
 }
 
 .overview > section {
@@ -20,6 +21,7 @@
     text-align: justify;
     margin-bottom: 1.2rem;
     font-size: 1.2rem;
+    transition: all 0.3s ease;
 }
 
 .socials {
