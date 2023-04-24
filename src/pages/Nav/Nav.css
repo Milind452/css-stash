@@ -50,3 +50,15 @@ nav::-webkit-scrollbar-thumb {
     background: #a374ff;
     border-radius: 100vw;
 }
+
+@media screen and (max-width: 900px) {
+    nav {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        width: 200px;
+    }
+}
