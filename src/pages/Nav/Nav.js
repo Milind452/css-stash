@@ -8,7 +8,9 @@ export default function Nav() {
         "Background",
         "Emoticons",
         "Forms",
-        "animations",
+        "Animations",
+        "Shapes",
+        "Text",
     ];
     return (
         <nav>
