@@ -2,12 +2,15 @@ import { FaGithub } from "react-icons/fa";
 import Hamburger from "../../components/Hamburger/Hamburger";
 import "./Header.css";
 
-export default function Header() {
+export default function Header({ isNavOpen, setIsNavOpen }) {
     return (
         <section className="header">
             <div className="left">
                 <div className="hamburger">
-                    <Hamburger />
+                    <Hamburger
+                        isNavOpen={isNavOpen}
+                        setIsNavOpen={setIsNavOpen}
+                    />
                 </div>
                 <p>#css stash</p>
             </div>
