@@ -32,5 +32,11 @@
 }
 
 .socials > a {
+    transition: all 0.3s ease;
+    color: #a374ff;
+}
+
+.socials > a:hover {
     color: #794493;
+    transform: scale(1.2);
 }
