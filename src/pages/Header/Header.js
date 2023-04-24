@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <section className="header">
             <div className="left">
-                <div class="hamburger">
+                <div className="hamburger">
                     <Hamburger />
                 </div>
                 <p>#css stash</p>
