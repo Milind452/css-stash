@@ -16,8 +16,11 @@ async function getCategories() {
             categories.push({ id: doc.id, category: doc.data().name });
         });
         return categories;
-    } catch (err) {
-        console.log(err);
+    } catch (error) {
+        console.log(
+            `An error occurred while trying to fetch categories: `,
+            error
+        );
     }
 }
 
@@ -29,7 +32,7 @@ async function addCategory(categoryName) {
         console.log("Document written with ID: ", docRef.id);
     } catch (error) {
         console.log(
-            "An error occurred while trying to add new category: ",
+            `An error occurred while trying to add new category ${categoryName}: `,
             error
         );
     }
@@ -40,7 +43,7 @@ async function deleteCategory(categoryId) {
         await deleteDoc(doc(db, "category", categoryId));
     } catch (error) {
         console.log(
-            "An error occurred while trying to delete a category: ",
+            `An error occurred while trying to delete category with id ${categoryId}: `,
             error
         );
     }
