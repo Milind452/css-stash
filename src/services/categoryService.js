@@ -3,6 +3,8 @@ import {
     serverTimestamp,
     addDoc,
     getDocs,
+    deleteDoc,
+    doc,
 } from "firebase/firestore";
 import { db } from "./firebase.config";
 
@@ -33,4 +35,15 @@ async function addCategory(categoryName) {
     }
 }
 
-export { getCategories, addCategory };
+async function deleteCategory(categoryId) {
+    try {
+        await deleteDoc(doc(db, "category", categoryId));
+    } catch (error) {
+        console.log(
+            "An error occurred while trying to delete a category: ",
+            error
+        );
+    }
+}
+
+export { getCategories, addCategory, deleteCategory };
