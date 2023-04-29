@@ -13,7 +13,7 @@ async function getCategories() {
         const querySnapshot = await getDocs(collection(db, "category"));
         let categories = [];
         querySnapshot.forEach((doc) => {
-            categories.push({ id: doc.id, category: doc.data().name });
+            categories.push({ id: doc.id, name: doc.data().name });
         });
         return categories;
     } catch (error) {
