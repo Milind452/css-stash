@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import useLocalStorage from "../../hooks/useLocalStorage";
 import "./Nav.css";
 import { getCategories } from "../../services/categoryService";
 
 export default function Nav() {
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useLocalStorage("categories", []);
     useEffect(() => {
         console.log(getCategories());
         const fetchData = async () => {
