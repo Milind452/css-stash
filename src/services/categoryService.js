@@ -13,7 +13,11 @@ async function getCategories() {
         const querySnapshot = await getDocs(collection(db, "category"));
         let categories = [];
         querySnapshot.forEach((doc) => {
-            categories.push({ id: doc.id, name: doc.data().name });
+            categories.push({
+                id: doc.id,
+                name: doc.data().name,
+                modifiedAt: doc.data().modifiedAt,
+            });
         });
         return categories;
     } catch (error) {
@@ -28,6 +32,7 @@ async function addCategory(categoryName) {
     try {
         const docRef = await addDoc(collection(db, "category"), {
             name: categoryName,
+            modifiedAt: serverTimestamp(),
         });
         console.log("Document written with ID: ", docRef.id);
     } catch (error) {
