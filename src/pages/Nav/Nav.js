@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import useLocalStorage from "../../hooks/useLocalStorage";
 import "./Nav.css";
 import { getCategories } from "../../services/categoryService";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
     const [categories, setCategories] = useLocalStorage("categories", []);
@@ -21,7 +22,9 @@ export default function Nav() {
                 </li>
                 {categories.map((category) => (
                     <li key={category.id}>
-                        <a href="/">{category.name}</a>
+                        <Link to={category.name.toLowerCase()}>
+                            {category.name}
+                        </Link>
                     </li>
                 ))}
             </ul>

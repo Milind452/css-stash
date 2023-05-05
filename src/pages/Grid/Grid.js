@@ -1,5 +1,7 @@
+import { useParams } from "react-router";
 import "./Grid.css";
 
 export default function Grid() {
-    return <div>Grid</div>;
+    const { category } = useParams();
+    return <div>Grid - {category}</div>;
 }
