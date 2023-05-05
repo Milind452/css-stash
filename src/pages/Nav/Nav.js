@@ -6,13 +6,12 @@ import { getCategories } from "../../services/categoryService";
 export default function Nav() {
     const [categories, setCategories] = useLocalStorage("categories", []);
     useEffect(() => {
-        console.log(getCategories());
         const fetchData = async () => {
             const data = await getCategories();
             setCategories(data);
         };
         fetchData();
-    }, []);
+    }, [setCategories]);
 
     return (
         <nav>
