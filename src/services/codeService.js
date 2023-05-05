@@ -23,7 +23,9 @@ async function getCodes(categoryName) {
                 modifiedAt: doc.data().modifiedAt,
             });
         });
-        codes = codes.filter((code) => code.category === categoryName);
+        codes = codes.filter(
+            (code) => code.category.toLowerCase() === categoryName.toLowerCase()
+        );
         return codes;
     } catch (error) {
         console.log(`An error occurred while trying to fetch codes: `, error);
