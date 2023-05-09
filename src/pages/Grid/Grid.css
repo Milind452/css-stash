@@ -1,0 +1,32 @@
+.codes {
+    grid-area: body;
+    overflow: auto;
+    padding: 20px 40px;
+}
+
+.codes > .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 20px 0;
+}
+
+.codes > h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #794493;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+    .codes > h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .codes > h1 {
+        font-size: 2rem;
+    }
+}
