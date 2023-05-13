@@ -22,8 +22,6 @@ export default function Grid() {
                     category.substring(1).toLowerCase()}
             </h1>
             <div className="grid">
-                {/* <div>Grid - {category}</div> */}
-                {/* <div>{JSON.stringify(codes)}</div> */}
                 {codes &&
                     codes.map((code) => (
                         <Card
