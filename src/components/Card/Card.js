@@ -9,9 +9,6 @@ import {
 export default function Card({ name, html, css, js }) {
     return (
         <section className="card">
-            {/* <div>{html}</div>
-            <div>{css}</div>
-            <div>{js}</div> */}
             <div className="preview">
                 <SandpackProvider
                     template="static"
